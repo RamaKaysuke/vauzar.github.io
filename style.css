@@ -214,3 +214,46 @@ nav a:hover {
   margin-bottom: 20px;
   font-size: 1.1rem;
 }
+/* MOBILE NAV FIX */
+@media (max-width: 600px) {
+  header {
+    padding: 16px 20px;
+  }
+
+  nav {
+    display: flex;
+    gap: 18px;
+  }
+
+  nav a {
+    font-size: .95rem;
+    margin-left: 0; 
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-wrapper {
+    padding: 100px 20px 40px;
+    gap: 20px;
+  }
+
+  .video-grid-card .overlay h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 30px 22px;
+  }
+}
